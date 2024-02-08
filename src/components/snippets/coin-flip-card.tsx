@@ -34,7 +34,7 @@ const CoinFlipCard = ({ data }: cardData) => {
     if (!flipping) {
       setFlipping(true);
       setTimeout(() => {
-        //setFlipping(false);
+        setFlipping(false);
       }, 3000);
     }
   };
